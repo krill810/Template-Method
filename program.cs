@@ -207,10 +207,10 @@ namespace OrderProcessingDemo
             OrderProcessor premium = new PremiumOrderProcessor();
 
             Console.WriteLine("=> Обработка ОБЫЧНОГО заказа через базовый класс:");
-            regular.ProcessOrder(1000m);
+            regular.ProcessOrder(1000);
 
             Console.WriteLine("\n=> Обработка ПРЕМИУМ-заказа через базовый класс:");
-            premium.ProcessOrder(1000m);
+            premium.ProcessOrder(1000);
 
             Console.WriteLine("\n=> Вывод: одинаковый вызов ProcessOrder() — разное поведение шагов.");
             Console.WriteLine("----- КОНЕЦ ДЕМОНСТРАЦИИ -----\n");
